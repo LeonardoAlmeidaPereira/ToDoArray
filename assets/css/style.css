@@ -1,3 +1,27 @@
+:root{
+    --color-lilac-1: #AA96D0;
+    --color-lilac-2: #B19CD9;
+    --color-lilac-3: #8F7DAE;
+    --color-lilac-4: #73658C;
+    --color-lilac-5: #574D6A;
+
+    --color-white: #f0f0f0;
+    --color-black: #252525;
+}
+
 li{
     cursor: pointer;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--color-lilac-2);
 }
